@@ -715,10 +715,10 @@ section {
 }
 .testimonials .testimonial-item {
   box-sizing: content-box;
-  min-height: 320px;
+  min-height: 50px;
 }
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
+  width: 100px;
   border-radius: 50%;
   margin: -40px 0 0 40px;
   position: relative;
@@ -754,7 +754,7 @@ section {
 }
 .testimonials .testimonial-item p {
   font-style: italic;
-  margin: 0 15px 0 15px;
+  margin: 0 10px 0 10px;
   padding: 20px 20px 60px 20px;
   background: #fff;
   position: relative;

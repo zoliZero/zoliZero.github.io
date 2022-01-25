@@ -186,13 +186,13 @@
     },
     breakpoints: {
       320: {
-        slidesPerView: 1,
-        spaceBetween: 40
+        slidesPerView: 3,
+        spaceBetween: 5
       },
 
-      1200: {
-        slidesPerView: 3,
-        spaceBetween: 40
+      900: {
+        slidesPerView: 5,
+        spaceBetween: 10
       }
     }
   });
