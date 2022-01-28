@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #f8ca29;
+  background: #472f22;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #472f22;
+  background: #f8ca29;
   color: #fff;
 }
 .back-to-top.active {
@@ -322,7 +322,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #2c4964;
+  color: #98989c;
 }
 .navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
   visibility: hidden;
@@ -516,7 +516,7 @@ section {
 .about .content h3 {
   font-weight: 600;
   font-size: 32px;
-  color: #2c4964;
+  color: #f8ca29;
 }
 .about .content ul {
   list-style: none;
@@ -543,11 +543,13 @@ section {
   border-radius: 5px;
   transition: 0.5s;
   color: #fff;
-  background: linear-gradient(45deg, #f8ca29 0%, #472f22 100%);
+  background: #472f22 ;
+  /* background: linear-gradient(45deg, #f8ca29 0%, #472f22 100%); */
   position: relative;
 }
 .about .content .read-more:hover {
-  background: linear-gradient(180deg, #f8ca29 0%, #472f22 100%);
+  background: #f8ca29;
+  /* background: linear-gradient(180deg, #f8ca29 0%, #472f22 100%); */
 }
 .about .content .read-more i {
   font-size: 22px;
@@ -560,7 +562,8 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: linear-gradient(90deg, #f8ca29 0%, #472f22 100%), url("../img/counts-bg.png") center center no-repeat;
+  background: #f8ca29;
+  /* background: linear-gradient(90deg, #f8ca29 0%, #472f22 100%), url("../img/counts-bg.png") center center no-repeat; */
   padding: 80px 0 60px 0;
 }
 .counts .counters span {
@@ -731,7 +734,7 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
-  color: #2c4964;
+  color: #98989c;
 }
 .testimonials .testimonial-item h4 {
   font-size: 14px;
@@ -814,7 +817,7 @@ section {
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #f8ca29;
+  background: #472f22;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -827,7 +830,7 @@ section {
 }
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: #f8ca29;
+  background: rgba(248, 202, 41, 0.75);
   position: absolute;
   left: 30px;
   right: 30px;
