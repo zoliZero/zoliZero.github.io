@@ -205,10 +205,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 14px;
   font-weight: 600;
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  border: 2px solid #98989c;
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
-  color: #98989c;;
+  color: #f8ca29;;
   border-color: #f8ca29;
 }
 .navbar .getstarted:before, .navbar li:hover > .getstarted:before {
@@ -271,7 +271,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #472f22;
+  color: #98989c;
   font-size: 28px;
   cursor: pointer;
   display: none;
