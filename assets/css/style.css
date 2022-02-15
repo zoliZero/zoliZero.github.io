@@ -562,22 +562,23 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: #f8ca29;
-  /* background: linear-gradient(90deg, #f8ca29 0%, #472f22 100%), url("../img/counts-bg.png") center center no-repeat; */
+  /* background: #f8ca29; */
+  background: url("../img/counter_background.jpg") center center no-repeat fixed;
   padding: 80px 0 60px 0;
 }
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: #fff;
+  color: #f8ca29;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
 .counts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-size: 15px;
-  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  color: #f8ca29;
 }
 
 /*--------------------------------------------------------------
@@ -1291,7 +1292,8 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: linear-gradient(45deg, #f8ca29 0%, #472f22 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background-color: #472f22;
+  /* background: linear-gradient(45deg, #f8ca29 0%, #472f22 100%), url("../img/hero-bg.jpg") center center no-repeat; */
   background-size: cover;
 }
 #footer .footer-top {
