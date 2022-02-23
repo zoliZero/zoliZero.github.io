@@ -367,16 +367,17 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  /* background-color: #fff; */
-  background: url("../img/ls_hero.jpg") center center no-repeat;
+  background-color: #fff;
+  /* background: url("../img/ls_hero.jpg") center center no-repeat; */
   background-size: cover;
+  text-align: center;
 }
 #hero .container, #hero .container-fluid {
   padding-top: 84px;
 }
 #hero h1 {
   margin: 0;
-  font-size: 36px;
+  font-size: 34px;
   font-weight: 700;
   line-height: 64px;
   color: #472f22;
@@ -1055,7 +1056,8 @@ section {
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
-  background: linear-gradient(42deg, #f8ca29 0%, #472f22 100%);
+  background-color: #472f22;
+  /* background: linear-gradient(42deg, #f8ca29 0%, #472f22 100%); */
 }
 .faq .section-title h2, .faq .section-title p {
   color: #fff;
@@ -1065,6 +1067,10 @@ section {
 }
 .faq .faq-list {
   padding: 0 100px;
+}
+.faq .faq-list h2 {
+  color:#fff;
+  text-align: center;
 }
 .faq .faq-list ul {
   padding: 0;
@@ -1293,8 +1299,8 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  /* background-color: #472f22; */
-  background: url("../img/ls_footer.jpg") center center no-repeat;
+  background-color: #98989c;
+  /* background: url("../img/ls_footer.jpg") center center no-repeat; */
   background-size: cover;
 }
 #footer .footer-top {
