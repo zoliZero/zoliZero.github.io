@@ -368,7 +368,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   background-color: #fff;
-  /* background: url("../img/ls_hero.jpg") center center no-repeat; */
+  background: url("../img/ls_hero_bg.jpg") center center no-repeat fixed;
   background-size: cover;
   text-align: center;
 }
@@ -565,7 +565,7 @@ section {
 --------------------------------------------------------------*/
 .counts {
   /* background: #f8ca29; */
-  background: url("../img/counter_background.jpg") center center no-repeat fixed;
+  background: url("../img/ls_hero_bg.jpg") center center no-repeat fixed;
   padding: 80px 0 60px 0;
 }
 .counts .counters span {
@@ -653,22 +653,22 @@ section {
   fill: #ffa76e;
 }
 .services .iconbox-pink i {
-  color: #e80368;
+  color: #472f22;
 }
 .services .iconbox-pink:hover .icon i {
   color: #fff;
 }
 .services .iconbox-pink:hover .icon path {
-  fill: #e80368;
+  fill: #472f22;
 }
 .services .iconbox-yellow i {
-  color: #ffbb2c;
+  color: #f8ca29;
 }
 .services .iconbox-yellow:hover .icon i {
   color: #fff;
 }
 .services .iconbox-yellow:hover .icon path {
-  fill: #ffbb2c;
+  fill: #f8ca29;
 }
 .services .iconbox-red i {
   color: #ff5828;
@@ -956,6 +956,9 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+#pricing {
+  background: url("../img/ls_hero_bg.jpg") center center no-repeat fixed;
+}
 .pricing .box {
   padding: 20px;
   background: #fff;
