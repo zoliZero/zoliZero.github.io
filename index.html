@@ -2,1176 +2,494 @@
 <html lang="en">
 
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-210126805-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-210126805-1');
-</script>
-
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>LabShare</title>
-  <meta name="description" content="LabShare connects manufacturers with laboratories. Find hundreds of tesing labs.">
-  <meta content="" name="keywords">
+  <title>ACAS Consulting</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
-  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
-  <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
-  <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Barlow+Condensed:100,300,400,400italic,500,600,700,700italic'>
-  <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Barlow:300,400,400italic,500,700,700italic,900'>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Techie - v4.7.0
-  * Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
+  * Template Name: Scaffold
+  * Template URL: https://bootstrapmade.com/scaffold-bootstrap-metro-style-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-  <!-- Global site tag (gtag.js) - Google Analytics --> 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-220597134-1"></script> 
-  <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-220597134-1'); </script> 
 </head>
 
-<body>
-  <!-- Start of HubSpot Embed Code -->
-  <!-- <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/25078769.js"></script> -->
-  <!-- End of HubSpot Embed Code -->
+<body class="index-page">
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center justify-content-between">
-      <!-- <h1 class="logo"><a href="index.html">Techie</a></h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo"><img src="assets/img/LabShare_color.png" alt="" class="img-fluid"></a>
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center">
 
-      <nav id="navbar" class="navbar">
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo.png" alt="">
+        <h1 class="sitename">ACAS Consulting</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a class="nav-link scrollto" href="services.html">Testing and Certification simplified</a></li>
-              <li><a class="nav-link scrollto" href="#for_manufacturers">Manufacturers</a></li>
-              <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
                 </ul>
-              </li> -->
-              <li><a class="nav-link scrollto" href="#for_laboratories">Laboratories</a></li>
-              <li><a class="nav-link scrollto" href=" http://labmate.thelabshare.com/">LabMate</a></li>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto " href="#portfolio">Articles</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li> -->
-          <li><a class="nav-link scrollto" href="#faq">FAQ</a></li>
-          <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
-          <li><a class="getstarted scrollto" href="https://platform.thelabshare.com/login">LOGIN</a></li>
-          <li><a class="getstarted scrollto" href="https://platform.thelabshare.com/registration">REGISTER</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <!-- <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div> -->
 
     </div>
-  </header><!-- End Header -->
+  </header>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+  <main class="main">
 
-    <div class="container-fluid" data-aos="fade-up">
-      <div class="row justify-content-center">
-        <div class="col-xl-4 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1>The global gate to product regulatory compliance</h1>
-          <h2>Market access - Consultancy - Testing - Certification
-            <br>One step to simplify and accelerate your product-to-market process</h2>
-          <div>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center">
             <center>
-            <a href="https://platform.thelabshare.com/login" target="_blank" class="neon-btn">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              Start LabShare
-            </a>
+            <h1>"Biztonság és Megfelelés"</h1>
+            <p>
+            </br><strong>FCC</strong> és <strong>CE</strong> jelölés elektronikai/háztartási eszközökre és játékokra.
+            </br></br>Audit, Conformity Assesment, Safety
             </center>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
-          <img src="assets/img/ls_hero.png" class="img-fluid animated" alt="">
-        </div>
-      </div>
-    </div>
-
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
-            <img src="assets/img/ls_flow.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <h3>LabShare's Essence and Value</h3>
-            <p class="fst-italic">
-              <b>Why</b> are we doing what we are doing?
-              <br>Most of the manufacturers are stuggeling with the obligatory certification and test processes. Finding the right way in product regulatory processes is not easy. New regulations, new product categories, new economical regions are driving new challanges, difficulties, time killing processes for you.  
-              <br>
-              <br><b>What</b> are we doing? 
-              <br>We are connecting manufacturers with laboratories and with certification companies to accelerate the go-to-market.   
-              <br>
-              <br><b>How</b> are we doing that? 
-              <br>Providing a  key-account service -supported with an online platform- the certification and testing process is made simplier. With decades of experiance of our expert network in product certification we can support you in the project management of the certification process
-              <br><br>A one-stop service to:
             </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i>Accelerate market entry</li>
-              <li><i class="bi bi-check-circle"></i>Optimize timing and costs</li>
-              <li><i class="bi bi-check-circle"></i>Regulatory expert support</li>
-            </ul>
-            <a href="https://platform.thelabshare.com/registration" class="read-more">Register Now<i class="bi bi-long-arrow-right"></i></a>
+            <!-- <div class="d-flex">
+              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div> -->
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 hero-img">
+            <img src="assets/img/hero-img.png" class="img-fluid" alt="">
           </div>
         </div>
-
       </div>
-    </section><!-- End About Section -->
 
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container">
+    </section><!-- /Hero Section -->
 
-        <div class="row counters">
+    <!-- About Section -->
+    <section id="about" class="about section">
 
-          <div class="col-lg-4 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Continents</p>
-          </div>
-
-          <div class="col-lg-4 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="60" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Experts</p>
-          </div>
-
-          <div class="col-lg-4 col-6 text-center">
-            <span>ANY</span>
-            <p>Standards</p>
-          </div>
-
-          <!-- Additonal Counter -->
-          <!-- <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hard Workers</p>
-          </div> -->
-
-        </div>
-
-      </div>
-    </section><!-- End Counts Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="for_manufacturers" class="services section-bg">
       <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
 
-        <div class="section-title">
-          <h2>MANUFACTURERS / DISTRIBUTORS</h2>
-          <p>LabShare offers a wide range of solutions for manufacturers and engineering centers to validate and certify products. 
-            Labs on the platform are pre-audited by LabShare and rated by other users. If you need a special test or you are a frequent outsourcer, start using LabShare.</p>
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/about.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>Jogszabályi megfelelés</h3>
+              <h2>Válassza az ACAS Consulting Kft.-t, hogy termékei zökkenőmentesen juthassanak el az európai és amerikai piacokra!</h2>
+              <p> Az ACAS Consulting Kft. szakértői támogatást nyújt a sikeres piacra lépéshez, legyen szó CE tanúsításról, FCC megfelelőségről vagy minőségbiztosítási folyamatokról. Több mint 10 éves tapasztalatunk és többnyelvű kommunikációnk garantálja a gördülékeny együttműködést.</p>
+              <!-- <div class="text-center text-lg-start">
+                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Read More</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div> -->
+            </div>
+          </div>
+
         </div>
+      </div>
+
+    </section><!-- /About Section -->
+
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Szolgáltatások</h2>
+        <p>„Audit, Megfelelőségértékelés, Biztonság”</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
 
         <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box iconbox-yellow">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
-                </svg>
-                <i class="bx bx-chart"></i>
-              </div>
-              <h4><a href="">Search testing labs</a></h4>
-              <p>Find your lab based on your preferences: distance - timing - price.
-                <br>A single test or test sequence? 
-                <br>Test your product Now!</p>
-            </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box iconbox-yellow">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
-                </svg>
-                <i class="bx bx-file"></i>
-              </div>
-              <h4><a href="">Search certification bodies</a></h4>
-              <p>Does your product need to comply with multiple legislations?
-                <br>Do you seek word-wide certifications?
-                <br>Find your certifier Now!</p>
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-file-earmark-ruled"></i></div>
+              <h4><a href="" class="stretched-link">Műszaki Dokumentáció</a></h4>
+              <p>Teljeskörű műszaki dokumentáció készítése, ellenőrzése, frissítése a jogszabályi követelmények alapján</p>
             </div>
-          </div>
+          </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box iconbox-yellow">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
-                </svg>
-                <i class="bx bx-tachometer"></i>
-              </div>
-              <h4><a href="">Expert support</a></h4>
-              <p>Any questions regarding test planning? Or do you need information about CE, UKCA, FCC, FDA, CCC or another conformity requirement?
-                <br>Ask our expert Now!</p>
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-card-checklist"></i></div>
+              <h4><a href="" class="stretched-link">Megfelelősség értékelés</a></h4>
+              <p>Termékek megfelelőlősségi dokumentációjának értékelése az európai és amerikai követelmények szerint</p>
             </div>
-          </div>
-  
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="" class="stretched-link">Auditok</a></h4>
+              <p>Termék auditok és folyamat auditok</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-patch-check"></i></div>
+              <h4><a href="" class="stretched-link">Tanúsítás</a></h4>
+              <p>Termékmegfelelősség és folyamat megfelelősség értékelése és tanúsítása</p>
+            </div>
+          </div><!-- End Service Item -->
 
         </div>
 
       </div>
-    </section><!-- End Services Section -->
-    
 
-      <!-- ======= Services Section ======= -->
-      <section id="for_laboratories" class="services section-bg">
-        <div class="container" data-aos="fade-up">
+    </section><!-- /Services Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <div class="container">
+
+        <ul class="nav nav-tabs row  g-2 d-flex" data-aos="fade-up" data-aos-delay="100">
+
+          <li class="nav-item col-3">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+              <h4>CE jelölés</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+              <h4>FCC tanúsítás</h4>
+            </a><!-- End tab nav item -->
+
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+              <h4>Beszerzés</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
+              <h4>Műszaki tolmácsolás</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="tab-pane fade active show" id="features-tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Elektronikai és háztartási eszközök CE jelölése</h3>
+                <p class="fst-italic">
+                  A CE jelölés biztosítja, hogy a termékek megfelelnek az EU biztonsági, egészségvédelmi és környezetvédelmi előírásainak.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> <span>Biztonsági szabványok betartása – A terméknek meg kell felelnie a vonatkozó EU-s biztonsági szabványoknak, amelyek a felhasználók egészségét és biztonságát védik.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Megfelelőségi nyilatkozat készítése – A gyártónak vagy importőrnek írásos nyilatkozatot kell kiállítania arról, hogy a termék megfelel az összes vonatkozó irányelvnek.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Műszaki dokumentáció előkészítése – A termékről részletes műszaki dokumentációt kell készíteni, amely tartalmazza a teszteredményeket és az előírt vizsgálati jelentéseket.</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/working-1.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+
+          <div class="tab-pane fade" id="features-tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Elektronikai és háztartási eszközök FCC tanúsítása</h3>
+                <p class="fst-italic">
+                  Az FCC jelölés biztosítja, hogy az elektronikai eszközök az Egyesült Államokban megfeleljenek a rádiófrekvenciás kibocsátásra és elektromágneses kompatibilitásra vonatkozó előírásoknak, így biztonságosak és szabályosak a használat során.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> <span>Rádiófrekvenciás kibocsátási határértékek betartása – Az eszköz nem lépheti túl az FCC által meghatározott rádiófrekvenciás kibocsátási határértékeket, biztosítva, hogy más eszközöket ne zavarjon működés közben.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Műszaki tesztelés és dokumentáció – Az eszközt különféle laboratóriumi teszteknek kell alávetni, hogy megfeleljen az FCC előírásainak, és a dokumentációt elérhetővé kell tenni az ellenőrzéshez.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>FCC ID és engedélyezés – Az eszköznek rendelkeznie kell FCC azonosítóval (FCC ID), amely igazolja, hogy engedélyezett és megfelel az előírásoknak.</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/working-2.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+
+          <div class="tab-pane fade" id="features-tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Elektronikai eszközök beszerzése</h3>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> <span>Jogszabályi követelmnyeknek megfelelő alkatrészek</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Megbízható, alternatív helyettesítők</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Egyedi gyártási ellenőrzött termékek</span></li>
+                </ul>
+                <p class="fst-italic">
+                  Költséghatékony támogatás léptetőmotorok és egyéb elektronikai alkatrészek beszerzésében – szakértői segítség a megfelelő alkatrészek gyors és zökkenőmentes eléréséhez.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/working-3.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+
+          <div class="tab-pane fade" id="features-tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Helyszíni és online műszaki tolmácsolás</h3>
+                <p class="fst-italic">
+                  Jelenleg 7 nyelven, köztük kínai és vietnámi nyelveken tudunk kommunikálni ügyfeleinkkel.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> <span>Kínai</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Vietnámi</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Műszaki szakszövegek, szakrajzok, specifikációk fordítása</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/working-4.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+       <!-- Contact Section -->
+       <section id="contact" class="contact section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Elérhetőség</h2>
+          <p>Keressen bizalommal</p>
+        </div><!-- End Section Title -->
   
-          <div class="section-title">
-            <h2>LABORATORIES</h2>
-            <p>LabShare operates a word-wide ecosystem. Labs, certifiers, lab suppliers, experts and consulting companies can the LabShare ecosystem. Join us without any obligations, Today.</p>
-          </div>
-
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+  
           <div class="row gy-4">
   
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box iconbox-yellow">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813"></path>
-                </svg>
-                <i class="bx bx-layer"></i>
+            <div class="col-lg-6">
+  
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <div class="info-item" data-aos="fade" data-aos-delay="200">
+                    <i class="bi bi-geo-alt"></i>
+                    <h3>Cím</h3>
+                    <p>Váci út 49. 6. emelet</p>
+                    <p>1134 Budapest</p>
+                  </div>
+                </div><!-- End Info Item -->
+  
+                <div class="col-md-6">
+                  <div class="info-item" data-aos="fade" data-aos-delay="300">
+                    <i class="bi bi-telephone"></i>
+                    <h3>Telefon</h3>
+                    <p>+36 30 260 1280</p>
+                  </div>
+                </div><!-- End Info Item -->
+  
+                <div class="col-md-6">
+                  <div class="info-item" data-aos="fade" data-aos-delay="400">
+                    <i class="bi bi-envelope"></i>
+                    <h3>Email</h3>
+                    <p>info@acas.hu</p>
+                  </div>
+                </div><!-- End Info Item -->
+  
+                <div class="col-md-6">
+                  <div class="info-item" data-aos="fade" data-aos-delay="500">
+                    <i class="bi bi-signal"></i>
+                    <h3>Signal</h3>
+                    <p>+36 30 260 1280</p>
+                  </div>
+                </div><!-- End Info Item -->
+  
               </div>
-              <h4><a href="">Let new customers find you</a></h4>
-              <p>Grow your business with new customers world-wide.</p>
+  
             </div>
-          </div>
+  
+            <div class="col-lg-6">
+              <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Budapest%20V%C3%A1ci%20%C3%BAt%2049%201134+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps systems</a></iframe></div>
+              <!-- <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box iconbox-yellow">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
-                </svg>
-                <i class="bx bx-slideshow"></i>
-              </div>
-              <h4><a href="">Digitalize your network</a></h4>
-              <p>Do you outsource single or multiple tests? Handle them in one place. Invite your business partner network to your personalized platform.</p>
-            </div>
-          </div>
+            </div><!-- End Contact Form -->
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box iconbox-yellow">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
-                </svg>
-                <i class="bx bx-arch"></i>
-              </div>
-              <h4><a href="">LIMS</a></h4>
-              <p>Cloud-based LIMS system that can ease your daily work: organize equipment, projects, assets and orders in one place.</p>
-            </div>
-          </div>
-      
+                    <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials section">
+          <!-- Section Title -->
+       <div class="container section-title" data-aos="fade-up">
+         <h2>Referenciák</h2>
+       </div>
+
+       <div class="container" data-aos="fade-up" data-aos-delay="100">
+ 
+         <div class="swiper init-swiper">
+           <script type="application/json" class="swiper-config">
+             {
+               "loop": true,
+               "speed": 600,
+               "autoplay": {
+                 "delay": 5000
+               },
+               "slidesPerView": "auto",
+               "pagination": {
+                 "el": ".swiper-pagination",
+                 "type": "bullets",
+                 "clickable": true
+               },
+               "breakpoints": {
+                 "320": {
+                   "slidesPerView": 2,
+                   "spaceBetween": 40
+                 },
+                 "480": {
+                   "slidesPerView": 3,
+                   "spaceBetween": 60
+                 },
+                 "640": {
+                   "slidesPerView": 4,
+                   "spaceBetween": 80
+                 },
+                 "992": {
+                   "slidesPerView": 6,
+                   "spaceBetween": 120
+                 }
+               }
+             }
+           </script>
+           <div class="swiper-wrapper align-items-center">
+             <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+             <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+             <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+             <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+             <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+             <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+             <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+             <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+             <div class="swiper-slide"><img src="assets/img/clients/client-9.png" class="img-fluid" alt=""></div>
+             <div class="swiper-slide"><img src="assets/img/clients/client-10.png" class="img-fluid" alt=""></div>
+             <div class="swiper-slide"><img src="assets/img/clients/client-11.png" class="img-fluid" alt=""></div>
+             <div class="swiper-slide"><img src="assets/img/clients/client-12.png" class="img-fluid" alt=""></div>
+             <div class="swiper-slide"><img src="assets/img/clients/client-13.png" class="img-fluid" alt=""></div>
+             <div class="swiper-slide"><img src="assets/img/clients/client-14.png" class="img-fluid" alt=""></div>
+             <div class="swiper-slide"><img src="assets/img/clients/client-15.png" class="img-fluid" alt=""></div>
+             <div class="swiper-slide"><img src="assets/img/clients/client-16.png" class="img-fluid" alt=""></div>
+             <div class="swiper-slide"><img src="assets/img/clients/client-17.png" class="img-fluid" alt=""></div>
+           </div>
+           <div class="swiper-pagination"></div>
+         </div>
+ 
+       </div>
+
+        
+   
+       </section><!-- /Testimonials Section -->
   
           </div>
   
         </div>
-      </section><!-- End Services Section -->
 
+ 
+  </main>
 
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-      <div class="container" data-aos="fade-up">
+  <footer id="footer" class="footer light-background">
 
-        <div class="section-title">
-          <h2>INDUSTRIES</h2>
-          <p>Industries in focus of LabShare, but not limited to</p>
-        </div>
+    <div class="copyright text-center">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
 
-        <div class="row">
-          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column align-items-lg-center">
-            <div class="icon-box mt-5 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-battery"></i>
-              <h4>Electromobility</h4>
-              <p>Energy storage systems, charger systems, power electronics</p>
-            </div>
-            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-car"></i>
-              <h4>Mobility</h4>
-              <p>Environmental simulations, lifetime tests, ECU’s, IP protection, corrosion</p>
-            </div>
-            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-shield"></i>
-              <h4>Electronics</h4>
-              <p>EMC, cyber security, 5G and V2X technology testing</p>
-            </div>
-            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-plus-medical"></i>
-              <h4>Medical devices</h4>
-              <p>Safety tests, biocompatibility, MDR/IVDR requirements related testing</p>
-            </div>
-          </div>
-          <div class="image col-lg-6 order-1 order-lg-2 " data-aos="zoom-in" data-aos-delay="100">
-            <img src="assets/img/industries.jpg" alt="" class="img-fluid">
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Features Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>SELECTED PARTNERS</h2>
-          <p>LabShare is working with hundreds of testing laboratories across Europe. 
-            We are proud of the community that supports manufacturers to bring their products faster and safe on the market.</p>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <!-- <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p> -->
-                <br><br>
-                <img src="assets\img\logos\alfa_ff.png" class="testimonial-img" alt="">
-                <!-- <h3>CCLab</h3>
-                <h4>Cyber security</h4> -->
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <!-- <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p> -->
-                <br><br>
-                <img src="assets\img\logos\avantes_ff.png" class="testimonial-img" alt="">
-                <!-- <h3>CerTrust</h3>
-                <h4>CerTrust</h4> -->
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <!-- <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p> -->
-                <br><br>
-                <img src="assets\img\logos\bth_ff.png" class="testimonial-img" alt="">
-                <!-- <h3>Conformitics</h3>
-                <h4>Alliance for compliance</h4> -->
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <!-- <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p> -->
-                <br><br>
-                <img src="assets\img\logos\cnd_ff.png" class="testimonial-img" alt="">
-                <!-- <h3>QTICS</h3>
-                <h4>QTICS Groupr</h4> -->
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <!-- <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p> -->
-                <br><br>
-                <img src="assets\img\logos\conformitics_ff.png" class="testimonial-img" alt="">
-                <!-- <h3>TAMCert</h3>
-                <h4>TAMCert</h4> -->
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <!-- <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p> -->
-                <br><br>
-                <img src="assets\img\logos\dach_ff.png" class="testimonial-img" alt="">
-                <!-- <h3>TAMCert</h3>
-                <h4>TAMCert</h4> -->
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <!-- <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p> -->
-                <br><br>
-                <img src="assets\img\logos\exva_ff.png" class="testimonial-img" alt="">
-                <!-- <h3>TAMCert</h3>
-                <h4>TAMCert</h4> -->
-              </div>
-            </div>
-            
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <!-- <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p> -->
-                <br><br>
-                <img src="assets\img\logos\imk_ff.png" class="testimonial-img" alt="">
-                <!-- <h3>TAMCert</h3>
-                <h4>TAMCert</h4> -->
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <!-- <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p> -->
-                <br><br>
-                <img src="assets\img\logos\izoelektro_ff.png" class="testimonial-img" alt="">
-                <!-- <h3>TAMCert</h3>
-                <h4>TAMCert</h4> -->
-              </div>
-            </div>
-            
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <!-- <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p> -->
-                <br><br>
-                <img src="assets\img\logos\koncar_ff.png" class="testimonial-img" alt="">
-                <!-- <h3>TAMCert</h3>
-                <h4>TAMCert</h4> -->
-              </div>
-            </div>
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section>
-    <!-- End Testimonials Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Articles</h2>
-          <p>News and helpful guidelines about product compliance, testing, and certifications.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-medical">Medical</li>
-              <li data-filter=".filter-battery">Battery</li>
-              <li data-filter=".filter-electronics">Electronics</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-battery">
-            <a href="batterytesting.html" title=""><div class="portfolio-wrap">
-              <img src="assets/img/articles/battery_1.jpg" class="img-fluid" alt="Battery Testing Guide">
-              <div class="portfolio-info">
-                <h4>Battery testing is going digital, but how exactly?</h4>
-                <!-- <p>Battery Testing Guide</p> -->
-              </div>
-              <!-- <div class="portfolio-links">
-                <a href="assets/img/portfolio/emc_test.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="article_sample.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div> -->
-            </div></a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-medical">
-            <a href="ticmarket.html" title=""><div class="portfolio-wrap">
-              <img src="assets/img/articles/LabShare_Market_Explainer.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product conformity Explainer</h4>
-                <!-- <p>CE Conformity</p> -->
-              </div>
-              <!-- <div class="portfolio-links">
-                <a href="assets/img/portfolio/LabShare_Market_Explainer.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="article_sample.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div> -->
-            </div></a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-electronics">
-            <a href="hardware_testing.html" title=""><div class="portfolio-wrap">
-              <img src="assets/img/articles/testing.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Why is thorough hardware testing a crucial component for product development?</h4>
-                <!-- <p>CE conformity</p> -->
-              </div>
-              <!-- <div class="portfolio-links">
-                <a href="assets/img/portfolio/hil.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="article_sample.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div> -->
-            </div></a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-electronics">
-            <a href="product development guide.html" title=""><div class="portfolio-wrap">
-              <img src="assets/img/articles/product_development_guide.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>The Definitive Guide on Product Development and Testing</h4>
-                <!-- <p>CE conformity</p> -->
-              </div>
-              <!-- <div class="portfolio-links">
-                <a href="assets/img/portfolio/hil.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="article_sample.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div> -->
-            </div></a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-electronics">
-            <a href="digital_transformation.html" title=""><div class="portfolio-wrap">
-              <img src="assets/img/articles/digit_comp.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>The Ultimate Guide to Digital Transformation</h4>
-                <!-- <p>CE conformity</p> -->
-              </div>
-              <!-- <div class="portfolio-links">
-                <a href="assets/img/portfolio/hil.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="article_sample.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div> -->
-            </div></a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-electronics">
-            <a href="remote_laboratories.html" title=""><div class="portfolio-wrap">
-              <img src="assets/img/articles/old_times.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Remote Laboratories: Advantages & Benefits</h4>
-                <!-- <p>CE conformity</p> -->
-              </div>
-              <!-- <div class="portfolio-links">
-                <a href="assets/img/portfolio/hil.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="article_sample.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div> -->
-            </div></a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-electronics">
-            <a href="B2B_marketplaces.html" title=""><div class="portfolio-wrap">
-              <img src="assets/img/articles/digit.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>B2B marketplaces are the next stage of sharing economy</h4>
-                <!-- <p>CE conformity</p> -->
-              </div>
-              <!-- <div class="portfolio-links">
-                <a href="assets/img/portfolio/hil.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="article_sample.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div> -->
-            </div></a>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- Pricing -->
-    <!-- <section id="pricing" class="pricing section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Pricing</h2>
-          <h4>for Manufacturers</h4>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-md" data-aos="fade-up" data-aos-delay="100">
-            <div class="box">
-              <h3>Free</h3>
-              <h4><sup>€</sup>0<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-2"></div>
-
-          <div class="col-md" data-aos="fade-up" data-aos-delay="200">
-            <div class="box featured">
-              <h3>Business</h3>
-              <h4><sup>€</sup>19<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-  
-        </div>
-
-        <br><br>
-
-        <div class="section-title">
-          <h4>for Laboratories</h4>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-md" data-aos="fade-up" data-aos-delay="100">
-            <div class="box">
-              <h3>Developer</h3>
-              <h4><sup>€</sup>29<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-2"></div>
-
-          <div class="col-md" data-aos="fade-up" data-aos-delay="200">
-            <div class="box">
-              <span class="advanced">Advanced</span>
-              <h3>Ultimate</h3>
-              <h4><sup>€</sup>49<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-    <!-- END OF PRICING -->
-
-
-      <!-- ======= Pricing Section ======= -->
-      <!-- <section id="pricing" class="pricing section-bg">
-        <div class="container" data-aos="fade-up">
-  
-          <div class="section-title">
-            <h2>Register for Free</h2>
-
-  
-          <div class="row">
-  
-            <div class="col-md" data-aos="fade-up" data-aos-delay="100">
-              <div class="box featured">
-                <h3>PRODUCT MANUFACTURERS</h3>
-                <h4><sup>€</sup>0<span> / month</span></h4>
-                <h5>FREE to USE</h5>
-                <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-
-                </ul>
-                <div class="btn-wrap">
-                  <a href="https://platform.thelabshare.com/registration" class="btn-buy">Register Now</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-2"></div>
-
-            <div class="col-md" data-aos="fade-up" data-aos-delay="200">
-              <div class="box featured">
-                <h3>LABORATORIES</h3>
-                <h4><sup>€</sup>0<span> / month*</span></h4>
-                <h5>FREE to USE</h5>
-                <ul>
-                  <li></li>
-                  <li>*10% commission charge on booked projects</li>
-                </ul>
-                <div class="btn-wrap">
-                  <a href="https://platform.thelabshare.com/registration" class="btn-buy">Register Now</a>
-                </div>
-              </div>
-            </div>
-      
-          </div>
-  
-        </div>
-      </section> -->
-      <!-- End Pricing Section -->
-
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq">
-
-      <div class="container" data-aos="fade-up">
-        <details>
-          <summary><div class="section-title">
-            <h2>Frequently Asked Questions</h2>
-            <p>Your testing or market access service is supported by an online platform. You can Do It Yourself and join the platform, or you can just contact us directly. Using LabShare is very simple. Here we explain more details. Do you have any questions? Click here!</p>
-          </div></summary>
-
-        <div class="faq-list">
-          <h2>Registration</h2>
-          <ul>
-            <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">How can I register? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                <p>
-                  Head to platform.thelabshare.com, and fill the registration form.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Can I register as a lab and as a customer at the same time? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Yes, you can. Every laboratory is a customer as well and can book a test at other labs.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">In which languages does LabShare offer customer service? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  We offer customer support in English.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">How is the contract between LabShare and me created? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  During registration, you accept the contractual conditions; this makes the relationship legally binding.
-                </p>
-              </div>
-            </li>
-          </ul>
-
-          <h2>Pricing</h2>
-          <ul>
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">How much is the service fee at LabShare? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  The platform usage is free of charge for both the customers and laboratories, however, after successful deals the laboratories pay 10% commission.
-                </p>
-              </div>
-            </li>
-          </ul>
-
-          <h2>Data protection</h2>
-          <ul>
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-6" class="collapsed">Who can see my data on the platform? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Nobody can see your equipment utilization beside you. Your basic company data is revealed after matchmaking to the customer/lab, and the admins can also see your company profile. 
-                </p>
-              </div>
-            </li>
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-7" class="collapsed">What kind of data does LabShare store? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-7" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  We only store your basic company data and the equipment description you upload and share.
-                </p>
-              </div>
-            </li>
-            <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-8" class="collapsed">What does LabShare do to protect my data? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-8" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Our platform has passed the OWASP penetration test and uses Google's secure servers.
-                </p>
-              </div>
-            </li>
-            <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-9" class="collapsed">My product is not on the market yet; there are a lot of confidential data around it. How do you keep my product information secret? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-9" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  All clients of LabShare are signing a three-party non-disclosure agreement with their registration, where LabShare and the laboratory are obliged for confidentiality and the manufacturer/distributor is the secret owner.
-                </p>
-              </div>
-            </li>
-          </ul>
-
-          <h2>RFQ</h2>
-          <ul>
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-10" class="collapsed">In case of matchmaking, do I contract with LabShare or with the other participants (customer/lab)? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-10" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  You do contract with the other participant.
-                </p>
-              </div>
-            </li>
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-11" class="collapsed">Are the offers sent via LabShare binding? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-11" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  No, they are non-binding offers.
-                </p>
-              </div>
-            </li>
-            <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-12" class="collapsed">If I accepted an offer, can I change its details or cancel it? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-12" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  You cannot make changes to the offer, but you can cancel it. In this case, pay attention to the cancellation period.
-                </p>
-              </div>
-            </li>
-          </ul>
-
-          <h2>Platform</h2>
-          <ul>
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-13" class="collapsed">If I do not see the equipment or test type I am looking for, what can I do? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-13" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Go to the help menu, contact us, select “Test type request” as the subject and let us know so we can start working on adding it.
-                </p>
-              </div>
-            </li>
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-14" class="collapsed">Can I offer services other than testing currently? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-14" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  For those who wish to offer a particular service or product to our network, we can conclude a separate cooperation agreement. 
-                </p>
-              </div>
-            </li>
-          </ul>
-
-          <h2>Warranty</h2>
-          <ul>
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-15" class="collapsed">Does LabShare provide any warranty regarding the execution of the tests? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-15" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  No, LabShare is only responsible for connecting labs with customers.
-                </p>
-              </div>
-            </li>
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-16" class="collapsed">How does the online laboratory audit work? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-16" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  LabShare sends a standardized questionnaire based on the ISO 17025 standard.
-                </p>
-              </div>
-            </li>
-          </ul>
-
-          <h2>Rating</h2>
-          <ul>
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-17" class="collapsed">How does the rating system work? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-17" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  The lab is given a default rating based on the evaluation of a questionnaire. This default rating is in effect until the fifth transaction after which your market feedback replaces it. 
-                </p>
-              </div>
-            </li>
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-18" class="collapsed">Can I rely on the lab rating as a customer? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-18" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Accreditation experts prepared the initial audit of labs; the later lab rating is based on market feedback. 
-                </p>
-              </div>
-            </li>
-          </ul>
-
-          <h2>Other</h2>
-          <ul>
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-19" class="collapsed">I have more questions, how can I get answers? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-19" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  You can contact us via the webpage or the platform or direct by e-mail: office@thelabshare.com. 
-                </p>
-              </div>
-            </li>
-          </ul>
-
-
-        </div>
-      </details>
-      </div>
-    
-    </section>
-  <!-- End Frequently Asked Questions Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <!-- <section id="contact" class="contact section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="info-box mb-4">
-              <i class="bx bx-map"></i>
-              <h3>Our Address</h3>
-              <p>Vaci ut 49. 1134 Budapest Hungary </p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
-              <i class="bx bx-envelope"></i>
-              <h3>Email Us</h3>
-              <p>office@thelabshare.com</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
-              <i class="bx bx-phone-call"></i>
-              <h3>Call Us</h3>
-              <p>+36 30 894 69 64</p>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-6 ">
-            <iframe class="mb-4 mb-lg-0" src="https://maps.google.com/maps?q=1134%20Budapest%20V%C3%A1ci%20%C3%BAt%2049&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
-          </div>
-
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-    <!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>LabShare Ltd.</h3>
-            <p>
-              Vaci ut 49. <br>
-              1134 Budapest<br>
-              Hungary<br><br>
-              <strong>Phone:</strong> +36 30 894 69 64<br>
-              <strong>Email:</strong> office@thelabshare.com<br>
-            </p>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://thelabshare.com/Compliance&impartiality-LS.pdf">Compliance policy</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://thelabshare.com/LabShare-Privacy-Policy.pdf">Privacy policy </a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://thelabshare.com/LabShare_legal_notice.pdf">Legal notice </a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://thelabshare.com/LabShare-Terms-and-Conditions_Final.pdf">T&Cs</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://platform.thelabshare.com/registration">Regsiter</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://platform.thelabshare.com/login">Login</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#faq">FAQ</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <!-- <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p> -->
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-
-      <div class="copyright-wrap d-md-flex py-4">
-        <div class="me-md-auto text-center text-md-start">
-          <div class="copyright">
-            &copy; 2022 by LabShare Ltd.
-            <!-- <br><br>&copy; Copyright <strong><span>Techie</span></strong>. All Rights Reserved -->
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div>
+            ©<strong><span>ACAS Consulting</span></strong>. Minden jog fenntartva.
           </div>
           <div class="credits">
             <!-- All the links in the footer should remain intact. -->
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/techie-free-skin-bootstrap-3/ -->
-            <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
           </div>
         </div>
-        <div class="social-links text-center text-md-right pt-3 pt-md-0">
-          <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
-          <a href="https://www.facebook.com/thelabshare/" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <!-- <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
-          <a href="https://www.linkedin.com/company/thelabshare/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://www.youtube.com/watch?v=EullWyUPrt4&feature=youtu.be" class="youtube"><i class="bx bxl-youtube"></i></a>
-        </div>
+
       </div>
-
     </div>
-  </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
+  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-  <!-- SalesViewer® -->
- 
-  <script>!(function (s, a, l, e, sv, i, ew, er) {try {(a =s[a] || s[l] || function () {throw "no_xhr";}),(sv = i = "//salesviewer.org"),(ew = function(x){(s = new Image()), (s.src = "//salesviewer.org/tle.gif?sva=d9o8V6l1i7J3&u="+window.location+"&e=" + encodeURIComponent(x))}),(l = s.SV_XHR = function (d) {return ((er = new a()),(er.onerror = function () {if (sv != i) return ew("load_err");
-  (sv = "//www.salesviewer.com/t"), setTimeout(l.bind(null, d), 0);}),(er.onload = function () {(s.execScript || s.eval).call(er, er.responseText);}),er.open("POST", sv, !0),(er.withCredentials = true),er.send(d),er);}),l("h_json=" + 1 * ("JSON" in s && void 0 !== JSON.parse) + "&h_wc=1&h_event=" + 1 * ("addEventListener" in s) + "&sva=" + e);} catch (x) {ew(x)}})(window, "XDomainRequest", "XMLHttpRequest", "d9o8V6l1i7J3");</script>
-   
-  <noscript><img src="//salesviewer.org/d9o8V6l1i7J3.gif" style="visibility:hidden;" /></noscript>
-   
-  <!-- End SalesViewer® -->
+
 </body>
 
 </html>
